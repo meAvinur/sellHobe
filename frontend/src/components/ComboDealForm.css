@@ -1,0 +1,72 @@
+.combo-form-wrapper {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.combo-form-wrapper h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.combo-form input,
+.combo-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.combo-form input[type="file"] {
+  padding: 8px;
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.combo-form button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.combo-form button:hover {
+  background-color: #45a049;
+}
+
+.combo-product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.combo-product-item {
+  flex: 1 1 45%;
+  background-color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+.combo-message {
+  color: #006600;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

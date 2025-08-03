@@ -1,0 +1,36 @@
+.manage-combos {
+  padding: 20px;
+}
+
+.combo-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.combo-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.edit-form input,
+.edit-form textarea {
+  display: block;
+  margin: 5px 0;
+  padding: 6px;
+  width: 100%;
+}
+
+.edit-form button {
+  margin-right: 10px;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+}

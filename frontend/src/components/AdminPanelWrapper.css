@@ -1,0 +1,30 @@
+.admin-login-wrapper {
+  max-width: 320px;
+  margin: 100px auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-login-wrapper input {
+  padding: 10px;
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.admin-login-wrapper button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+}
